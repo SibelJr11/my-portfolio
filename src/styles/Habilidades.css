@@ -1,0 +1,74 @@
+.habilidades{
+   width: 100%;
+   height: auto;
+   display: flow-root;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.habilidades h1{
+    text-align: center;
+    color: white;
+}
+
+
+
+.slider{
+    width: 70%; /* Ancho del slider */
+    height: 150px; /* Alto del slider */
+    margin: 0 auto; /* Para centrar el slider horizontalmente */
+    display: flex;
+    justify-content: center; /* Alinea elementos al inicio del contenedor */
+    align-items: center;
+    padding: 0%;
+
+}
+.slider div{
+    width: 80%; /* Ancho para mostrar cuatro elementos en una fila */
+    height: 100px; /* Alto de cada elemento */ 
+}
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider img:hover {
+    transform: rotate(10deg);
+}
+
+.slider p {
+   size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  
+  }
+  
+  /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
+  @media (max-width: 480px) {
+    .habilidades h1{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .slider{
+        width: 70%; /* Ancho del slider */
+        height: 150px; /* Alto del slider */
+         /* Para centrar el slider horizontalmente */
+        display: flex;
+        justify-content: center; /* Alinea elementos al inicio del contenedor */
+        align-items: center;
+        padding: 0%;
+    
+    }
+    .slider div{
+        width: 80%; /* Ancho para mostrar cuatro elementos en una fila */
+        height: 100px; /* Alto de cada elemento */ 
+    }
+   
+  }

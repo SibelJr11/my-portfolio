@@ -1,0 +1,85 @@
+.about{
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   border: solid 2px forestgreen;
+   
+}
+
+.about img{
+   width: 280px;
+}
+.info-about {
+   text-align: start;
+   margin-left: 3rem;
+   width: 50%;
+}
+
+.info-about h1{
+   color:green
+
+}
+
+.info-about p{
+  font-size:  1.1rem;
+  color: gray;
+ 
+}
+
+
+@media (max-width: 768px) {
+   .about{
+      height: 250px;
+   }
+
+   .about img{
+      width: 170px;
+   }
+
+   .info-about {
+      text-align: start;
+      margin-left: 1rem;
+      width: 50%;
+   }
+
+   .info-about h1{
+      font-size: 18px;
+   
+   }
+
+   .info-about p{
+      font-size:  13px;
+      color: gray;
+    }
+ }
+ 
+ /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
+ @media (max-width: 480px) {
+   .about{
+      height: auto;
+   }
+
+   .about img{
+      width: 150px;
+   }
+
+   .info-about {
+      text-align: start;
+      margin-left: 1rem;
+      width: 50%;
+   }
+
+   .info-about h1{
+      font-size: 16px;
+      
+   
+   }
+
+   .info-about p{
+      font-size:  11px;
+      color: gray;
+    }
+ }

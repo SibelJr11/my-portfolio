@@ -1,0 +1,90 @@
+.principal{
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+    border: #07bb16 solid 3px;
+}
+
+.grid-container-principal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columnas de igual ancho */
+    grid-gap: 20px; /* Espacio entre las celdas */
+   width: 85%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.grid-item-principal {
+    text-align: center;
+    align-items: end;
+    overflow: hidden;
+    position: relative;
+}
+
+.text{
+  margin-right: 10rem;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(6, 240, 6);
+  text-align: start;
+}
+.text p{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.text button{
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+.principal img{
+    width: 350px;
+    height: 350px;
+    object-fit: scale-down;
+}
+
+.principal img:hover{
+    border-radius:50%;
+    transition: 2s;
+    transform: translate(-50%, -50%);
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #07bb16;
+-webkit-box-shadow: 0px 0px 15px 15px #12c50c;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+
+  /* Estilos para pantallas medianas (por ejemplo, tablets) */
+  @media (max-width: 768px) {
+    
+  }
+  
+  /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
+  @media (max-width: 480px) {
+    .principal{
+        height: 50%;
+    }
+
+    .text{
+       
+        font-size: 10px;
+        font-weight: bold;
+        color: rgb(6, 240, 6);
+      }
+      .text p{
+          font-size: 12px;
+          color: gray;
+      }
+
+    .principal img{
+        width: 50px;
+        object-fit: scale-down;
+    }
+   
+  }
