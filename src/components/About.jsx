@@ -11,7 +11,6 @@ const About = () => {
 
 Mi enfoque está en proporcionar soluciones tecnológicas eficientes y de alta calidad. Creo en la innovación constante y en la creatividad para superar desafíos.
 
-Te invito a seguir mi viaje tecnológico mientras sigo explorando y aprendiendo en el mundo del desarrollo de software. ¡Gracias por visitar mi página y por ser parte de esta emocionante aventura!
 
          </p>
       </div>

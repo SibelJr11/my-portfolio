@@ -13,8 +13,6 @@
      background: rgb(6, 6, 31);
   }
 
-
-  
   .menu-button {
     display: none;
     background: none;
@@ -49,6 +47,8 @@
     transform: rotate();
   }
   
+
+  
   @media (max-width: 768px) {
     .header{
         justify-content: space-between;
@@ -56,7 +56,7 @@
     }
 
     .header h2{
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-left: 30px;
     }
     

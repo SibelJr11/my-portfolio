@@ -46,7 +46,11 @@
 
 
 @media (max-width: 768px) {
-  
+    .habilidades h1{
+        text-align: center;
+        color: white;
+        font-size: 22px;
+    }
   }
   
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
@@ -59,7 +63,7 @@
     .habilidades h1{
         text-align: center;
         color: white;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .slider{

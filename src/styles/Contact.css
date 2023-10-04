@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .contact-list {
@@ -38,7 +39,7 @@
         margin: 0 15px; 
       }
     .image {
-      width: 25px;
+      width: 28px;
     }
   
   }
@@ -53,6 +54,6 @@
         margin: 0 9px; 
       }
     .image {
-      width: 15px;
+      width: 25px;
     }
   }

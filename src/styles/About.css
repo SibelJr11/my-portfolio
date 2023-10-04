@@ -18,13 +18,13 @@
 }
 
 .info-about h1{
-   color:green
+   color:rgb(255, 255, 255)
 
 }
 
 .info-about p{
-  font-size:  1.1rem;
-  color: gray;
+  font-size:  1.2rem;
+  color: rgb(214, 213, 213);
  
 }
 
@@ -45,13 +45,12 @@
    }
 
    .info-about h1{
-      font-size: 18px;
+      font-size: 22px;
    
    }
 
    .info-about p{
       font-size:  13px;
-      color: gray;
     }
  }
  
@@ -72,13 +71,12 @@
    }
 
    .info-about h1{
-      font-size: 16px;
+      font-size: 20px;
       
    
    }
 
    .info-about p{
-      font-size:  11px;
-      color: gray;
+      font-size:  12px;
     }
  }
