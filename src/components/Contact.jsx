@@ -21,7 +21,7 @@ const Contact = () => {
         {socialMediaLinks.map((link, index) => (
           <li key={index}>
             <a href={link.url} target="_blank">
-              <img src={`/public/${link.icon}`} title={link.name} className='image' />
+              <img src={`/${link.icon}`} title={link.name} className='image' />
             </a>
           </li>
         ))}

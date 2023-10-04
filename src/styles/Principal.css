@@ -1,33 +1,20 @@
 .principal{
     height: 80%;
     display: flex;
-    justify-content:center;
-    align-items: center;    
-    border: #07bb16 solid 3px;
-}
-
-.grid-container-principal{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 columnas de igual ancho */
-    grid-gap: 20px; /* Espacio entre las celdas */
-   width: 85%; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor */
-}
-
-.grid-item-principal {
-    text-align: center;
-    align-items: end;
-    overflow: hidden;
-    position: relative;
+    justify-content:space-evenly;
+    align-items: center;  
+    margin-top: 100px;  
 }
 
 .text{
-  margin-right: 10rem;
+ 
   font-size: xx-large;
   font-weight: bold;
   color: rgb(6, 240, 6);
   text-align: start;
+   width: 50%;
 }
+
 .text p{
     font-size: 1.5rem;
     color: gray;
@@ -48,43 +35,74 @@
     object-fit: scale-down;
 }
 
-.principal img:hover{
-    border-radius:50%;
-    transition: 2s;
-    transform: translate(-50%, -50%);
--webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #07bb16;
--webkit-box-shadow: 0px 0px 15px 15px #12c50c;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
-}
 
 
   /* Estilos para pantallas medianas (por ejemplo, tablets) */
   @media (max-width: 768px) {
-    
+    .principal{
+        height: 50%;
+        justify-content:center;
+    }
+
+    .text{
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: rgb(6, 240, 6);
+      }
+      .text p{
+          margin-top: -20px;
+          font-size: 15px;
+          color: gray;
+      }
+
+        .principal img{
+            width: 180px;
+            object-fit: scale-down;
+        }
+
+
+        .text button{
+            width: 80px;
+            height: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 13px;
+            font-weight: 900;
+            cursor: pointer;
+        }
   }
   
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
   @media (max-width: 480px) {
     .principal{
         height: 50%;
+        justify-content:center;
+        margin-top: 30px;  
     }
 
     .text{
-       
-        font-size: 10px;
+        font-size: 1.3rem;
         font-weight: bold;
         color: rgb(6, 240, 6);
       }
       .text p{
-          font-size: 12px;
+          margin-top: -20px;
+          font-size: 15px;
           color: gray;
       }
 
-    .principal img{
-        width: 50px;
-        object-fit: scale-down;
-    }
+        .principal img{
+            width: 140px;
+            object-fit: scale-down;
+        }
+
+
+        .text button{
+            width: 80px;
+            height: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 13px;
+            font-weight: 900;
+            cursor: pointer;
+        }
    
   }

@@ -10,6 +10,7 @@
 .habilidades h1{
     text-align: center;
     color: white;
+    margin-bottom: 50px;
 }
 
 
@@ -50,6 +51,11 @@
   
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
   @media (max-width: 480px) {
+
+    .habilidades{
+     margin-bottom:0;
+     }
+
     .habilidades h1{
         text-align: center;
         color: white;

@@ -4,7 +4,12 @@
     text-align: center;
     color: white;
     margin-bottom: 70px;
+    
 }
+
+ .projects h1{
+        margin-bottom: 50px;
+    }
 
 .grid-container-project{
     display: grid;
@@ -88,6 +93,11 @@
   
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
   @media (max-width: 480px) {
+    .projects h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
     .grid-container-project{
         grid-template-columns: repeat(1, 1fr); /* 3 columnas de igual ancho */
         grid-gap: 10px; /* Espacio entre las celdas */

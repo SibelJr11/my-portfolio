@@ -10,7 +10,7 @@ const Projects = () => {
 
             <div className="grid-item-project">
                <div className="imagen">
-                  <img src="/public/dejandohuellas.png" alt="Proyecto 1"/>
+                  <img src="/dejandohuellas.png" alt="Proyecto 1"/>
               </div>
                 <div className="info-image">
                   <div>
@@ -25,7 +25,7 @@ const Projects = () => {
 
             <div className="grid-item-project">
                  <div className="imagen">
-                    <img src="/public/clon-pinterest.png" alt="Proyecto 1"/>
+                    <img src="/clon-pinterest.png" alt="Proyecto 1"/>
                 </div>
                 <div className="info-image">
                   <div>
@@ -41,7 +41,7 @@ const Projects = () => {
 
             <div className="grid-item-project">
                  <div className="imagen">
-                    <img src="/public/app-clima.png" alt="Proyecto 1"/>
+                    <img src="/app-clima.png" alt="Proyecto 1"/>
                 </div>
                 <div className="info-image">
                   <div>
@@ -56,7 +56,7 @@ const Projects = () => {
 
             <div className="grid-item-project">
                  <div className="imagen">
-                    <img src="/public/portafolio.png" alt="Proyecto 1"/>
+                    <img src="/portafolio.png" alt="Proyecto 1"/>
                 </div>
                 <div className="info-image">
                   <div>
