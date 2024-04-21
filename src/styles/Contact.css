@@ -25,9 +25,9 @@
     width: 30px;
 }
 
-.image :hover{
-    background: green;
+.contact-list li :hover{
     width: 50px;
+    transition: 1s;
 }
 
 /* Estilos para pantallas medianas (por ejemplo, tablets) */
@@ -41,6 +41,9 @@
     .image {
       width: 28px;
     }
+    .contact-list li :hover{
+      width: 40px;
+  }
   
   }
   
@@ -56,4 +59,7 @@
     .image {
       width: 25px;
     }
+    .contact-list li :hover{
+      width: 35px;
+  }
   }

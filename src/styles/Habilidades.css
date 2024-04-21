@@ -28,6 +28,8 @@
 .slider div{
     width: 80%; /* Ancho para mostrar cuatro elementos en una fila */
     height: 100px; /* Alto de cada elemento */ 
+   
+    
 }
 
 .slider img {
@@ -46,10 +48,10 @@
 
 
 @media (max-width: 768px) {
+    
     .habilidades h1{
-        text-align: center;
-        color: white;
         font-size: 22px;
+        margin-bottom: 20px;
     }
   }
   
@@ -61,24 +63,18 @@
      }
 
     .habilidades h1{
-        text-align: center;
-        color: white;
         font-size: 22px;
+        margin-bottom: 20px;
     }
 
     .slider{
-        width: 70%; /* Ancho del slider */
-        height: 150px; /* Alto del slider */
-         /* Para centrar el slider horizontalmente */
-        display: flex;
-        justify-content: center; /* Alinea elementos al inicio del contenedor */
-        align-items: center;
-        padding: 0%;
-    
+        width: 75%; /* Ancho del slider */
+        height: 90px; /* Alto del slider */
     }
+
     .slider div{
-        width: 80%; /* Ancho para mostrar cuatro elementos en una fila */
-        height: 100px; /* Alto de cada elemento */ 
+        width: 85%; /* Ancho para mostrar cuatro elementos en una fila */
+        height: 50px; /* Alto de cada elemento */ 
     }
    
   }

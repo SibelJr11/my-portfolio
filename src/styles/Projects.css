@@ -69,7 +69,7 @@
     border: solid 3px green;
     transition: 1.5s;
     background: none;
-    font-size: large;
+    font-size: medium;
     
 }
 
@@ -93,6 +93,12 @@
         font-size: 13px;
         height: 50px;
     }
+
+    .button:hover{
+        border: solid 3px green;
+        font-size: medium;
+        
+    }
   }
   
   /* Estilos para pantallas pequeñas (por ejemplo, teléfonos móviles) */
@@ -100,6 +106,12 @@
     .projects h1{
         font-size: 22px;
         margin-bottom: 20px;
+    }
+
+    .button:hover{
+        border: solid 3px green;
+        font-size: medium;
+        
     }
 
     .grid-container-project{

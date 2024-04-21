@@ -9,14 +9,15 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
+  
 
   return (
-    <div className='container'>
+    <div >
       <NavBar/>
       <Principal/>
       <About/>
       <Habilidades/>
-      <Projects/>
+      <Projects />
       <Contact/>
       <Footer/>
 

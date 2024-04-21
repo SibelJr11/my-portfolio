@@ -10,16 +10,13 @@ const Principal = () => {
 
 
   return (
-    <div className='principal'>
+    <div className='principal' id='principal'>
         <div className='text'>
             <h1>Hi, I'm Sibel Olaya</h1>
             <p>Software Developer Jr</p>   
             <button onClick={viewCV}>Ver CV</button> 
-       </div>
-      
+       </div>    
             <img src='/iconDev.svg'/>  
-           
-       
     </div>
   )
 }

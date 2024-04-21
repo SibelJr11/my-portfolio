@@ -11,12 +11,12 @@ const NavBar = () => {
   return (
     <div className={`header ${menuOpen ? 'menu-open' : ''}`}>
     
-        <h2>Sibel Jr .</h2>
+        <h2>{"< Sibel Jr . />"}</h2>
         <button className="menu-button" onClick={toggleMenu}>
             <i className="icono fi fi-br-menu-burger"></i>
          </button>
         <ul className={`list ${menuOpen ? 'menu-list' : ''}`}>
-             <li><a href='#about'>Inicio</a></li>
+             <li><a href='#principal'>Inicio</a></li>
             <li><a href='#about'>About</a></li>
             <li><a href='#habilidades'>Habilidades</a></li>
             <li><a href='#projects'>Proyectos</a></li>

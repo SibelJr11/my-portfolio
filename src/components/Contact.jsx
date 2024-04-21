@@ -10,13 +10,14 @@ const Contact = () => {
       },
     { name: 'Facebook',url: 'https://www.facebook.com/sibelantonio.olayamestizo', icon: 'facebook.svg' },
     { name: 'Instagram',url: 'Instagram', icon: 'instagram.svg' },
-    { name: 'WhatsApp',url: 'https://api.whatsapp.com/send?phone=3228464115', icon: 'whatsapp.svg' },
+    { name: 'WhatsApp',url: 'https://api.whatsapp.com/send?phone=+573228464115', icon: 'whatsapp.svg' },
     { name: 'LinkedIn',url: 'https://www.linkedin.com/in/sibel-antonio-olaya-mestizo-7603871b6', icon: 'linkedin.svg' },
     { name: 'GitHub', url: 'https://github.com/SibelJr11', icon: 'github.svg' },
   ];
 
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
+     
       <ul className='contact-list'>
         {socialMediaLinks.map((link, index) => (
           <li key={index}>

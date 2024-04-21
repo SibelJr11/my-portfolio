@@ -23,6 +23,7 @@
 }
 
 .info-about p{
+  
   font-size:  1.2rem;
   color: rgb(214, 213, 213);
  
@@ -50,7 +51,7 @@
    }
 
    .info-about p{
-      font-size:  13px;
+      font-size:  14px;
     }
  }
  
@@ -77,6 +78,6 @@
    }
 
    .info-about p{
-      font-size:  12px;
+      font-size:  14px;
     }
  }
