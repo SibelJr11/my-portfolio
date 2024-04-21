@@ -12,13 +12,13 @@ const Projects = () => {
     },
     {
       name:"Proyecto Clon Pinterest",
-      link_project:"",
+      link_project:"https://clon-pinterest-sjr11.netlify.app/",
       link_github:"" ,
       img:"/clon-pinterest.png"
      },
      {
       name:"App del Clima",
-      link_project:"",
+      link_project:"https://app-clima-sjr.netlify.app/",
       link_github:"",
       img:"/app-clima.png"
      },
@@ -30,7 +30,7 @@ const Projects = () => {
      },
       {
      name:"Mi Portafolio",
-     link_project:"",
+     link_project:"https://sibel-antonio-olaya-m.netlify.app/",
      link_github:"",
      img:'portafolio.png'
     },
