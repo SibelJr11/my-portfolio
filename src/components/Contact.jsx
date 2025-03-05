@@ -12,17 +12,19 @@ const Contact = () => {
 ];
    return(
 
-<div  id='contact' className='contact'>
-  <ul className='contact-list'>
-    {socialMediaLinks.map((link, index) => (
-      <li key={index}>
-        <a href={link.url} target="_blank" rel="noopener noreferrer">
-          <img src={link.icon} title={link.name} className='image' />
-        </a>
-      </li>
-    ))}
-  </ul>
-</div>
+<ul className='contact-list'>
+  {socialMediaLinks.map((link, index) => (
+    <li key={index}>
+      <a href={link.url} onClick={(e) => { 
+        e.preventDefault(); 
+        window.open(link.url, '_blank', 'noopener,noreferrer');
+      }}>
+        <img src={link.icon} title={link.name} className='image' />
+      </a>
+    </li>
+  ))}
+</ul>
+
 );
 
 }
