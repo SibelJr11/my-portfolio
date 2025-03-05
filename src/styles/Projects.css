@@ -20,7 +20,7 @@
 }
 
 .grid-item-project {
-    background-color: #ccc;
+    background-color: #d80909;
     text-align: center;
     font-size: 17px;
     align-items: center;
@@ -32,9 +32,12 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.imagen img{
+.imagen img {
     width: 100%;
+    height: 100%; /* Asegura que ocupe todo el alto */
+    display: block; /* Elimina el espacio extra debajo */
 }
+
 
 .info-image {
     background: rgba(0, 0, 0, 0.7);

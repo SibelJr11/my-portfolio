@@ -3,39 +3,34 @@ import '../styles/Projects.css'
 
 const Projects = () => {
 
-  const projects=[
+  const projects = [
     {
-     name:"Sistema de Gestión de Clientes, Gastos y Cobros Dejando Huellas",
-     link_project:"",
-     link_github:"" ,
-     img:"/dejandohuellas.png"
+      name: "Sistema de Gestión Dejando Huellas",
+      link_project: "https://contrato.dejandohuellas.com.co",
+      img: "/images/dejandohuellas.png"
     },
     {
-      name:"Proyecto Clon Pinterest",
-      link_project:"https://clon-pinterest-sjr11.netlify.app/",
-      link_github:"" ,
-      img:"/clon-pinterest.png"
-     },
-     {
-      name:"App del Clima",
-      link_project:"https://app-clima-sjr.netlify.app/",
-      link_github:"",
-      img:"/app-clima.png"
-     },
-     {
-      name:"Chat App",
-      link_project:"",
-      link_github:"",
-      img:"https://isenacode.com/wp-content/uploads/2019/08/Imagen-2.png"
-     },
-      {
-     name:"Mi Portafolio",
-     link_project:"https://sibel-antonio-olaya-m.netlify.app/",
-     link_github:"",
-     img:'portafolio.png'
+      name: "GestCafé",
+      link_project: "https://gestcafe.netlify.app",
+      img: "/images/gestcafe.png"
     },
-
-  ]
+    {
+      name: "Clon Pinterest",
+      link_project: "https://clon-pinterest-sjr11.netlify.app",
+      img: "/images/pinterest.png"
+    },
+    {
+      name: "App del Clima",
+      link_project: "https://app-clima-sjr.netlify.app",
+      img: "/images/clima.png"
+    },
+    {
+      name: "Mi Portafolio",
+      link_project: "https://sibel-antonio-olaya-m.netlify.app",
+      img: "/images/portafolio.png"
+    }
+  ];
+  
   return (
     <div id='projects' className='projects'>
         <h1>Mis Proyectos</h1>
@@ -51,9 +46,6 @@ const Projects = () => {
                 <div className="info-image">
                   <div>
                       <h3>{`${p.name}`}</h3>
-                     
-                      <a href={`${p.link_github}`} className='button'>Ver Codigo</a>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a href={`${p.link_project}`} className='button'>Ver Proyecto</a>
                     </div>
                 </div>

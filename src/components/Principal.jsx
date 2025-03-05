@@ -16,7 +16,7 @@ const Principal = () => {
             <p>Software Developer Jr</p>   
             <button onClick={viewCV}>Ver CV</button> 
        </div>    
-            <img src='/iconDev.svg'/>  
+            <img src='/images/iconDev.svg'/>  
     </div>
   )
 }

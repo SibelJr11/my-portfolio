@@ -16,7 +16,7 @@
 
 
 .slider{
-    width: 70%; /* Ancho del slider */
+    width: 73%; /* Ancho del slider */
     height: 150px; /* Alto del slider */
     margin: 0 auto; /* Para centrar el slider horizontalmente */
     display: flex;
